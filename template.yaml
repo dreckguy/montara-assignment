@@ -1,6 +1,6 @@
 AWSTemplateFormatVersion: '2010-09-09'
 Description:
-  montara devops assignment made by Ophir Haramaty
+  Montara devops assignment made by Ophir Haramaty
 
 Resources:
   

@@ -1,8 +1,6 @@
 # cyberark
 ## Prerequisites
-1. bash installed with ssh agent
-2. terraform installed
-3. aws cli configured
+1. bash installed with aws cli configured
 ## Installation
 1. clone repository
 3. cd into it
