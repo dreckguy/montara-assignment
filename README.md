@@ -1,4 +1,4 @@
-# Montara Assignment
+# Web page deployment based on S3 bucket
 ## Prerequisites
 1. bash installed with aws cli configured
 ## Installation
