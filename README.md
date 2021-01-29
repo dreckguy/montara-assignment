@@ -6,7 +6,7 @@
 3. cd into it
 4. run deploy.sh script
 ## See if it works
-1. The script will print the public url of the public web page.
+1. The script will print the public url of the web page.
 2. click on the link should show a web page with the text "Good Luck"
 
 ## Clean resources
