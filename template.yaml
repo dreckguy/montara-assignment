@@ -1,9 +1,7 @@
 AWSTemplateFormatVersion: '2010-09-09'
 Description:
   Montara devops assignment made by Ophir Haramaty
-
 Resources:
-  
   FrontendBucket:
     Type:  AWS::S3::Bucket
     Properties:
@@ -11,7 +9,6 @@ Resources:
       AccessControl: PublicRead
       WebsiteConfiguration:
         IndexDocument: 'index.html'
-
 Outputs:
   Website:
     Description: Public Website URL
