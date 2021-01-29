@@ -1,0 +1,18 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description:
+  montara devops assignment made by Ophir Haramaty
+
+Resources:
+  
+  FrontendBucket:
+    Type:  AWS::S3::Bucket
+    Properties:
+      BucketName: !Sub "${AWS::StackName}"
+      AccessControl: PublicRead
+      WebsiteConfiguration:
+        IndexDocument: 'index.html'
+
+Outputs:
+  Website:
+    Description: Public Website URL
+    Value: !GetAtt [FrontendBucket, WebsiteURL]
