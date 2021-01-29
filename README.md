@@ -1,4 +1,4 @@
-# cyberark
+# Montara Assignment
 ## Prerequisites
 1. bash installed with aws cli configured
 ## Installation
